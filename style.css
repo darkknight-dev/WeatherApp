@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  /* background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143)); */
+  /* background: linear-gradient(#172368, #e249af);
+  background-image: url(/images/hero/3/1440x450.jpg),
+    linear-gradient(rgb(135, 135, 135), rgb(235, 235, 235)); */
+
+  background: #1a122a;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(26, 18, 42);
+  color: #fff;
+}
+
+.location,
+.temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.website-title {
+  font-size: 60px;
+}
+
+.temperature {
+  flex-direction: column;
+}
+
+.temperature-description {
+  font-size: 40px;
+}
+
+.degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.degree-section span {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.degree-section h2 {
+  font-size: 40px;
+}
+
+.note {
+  font-size: 20px;
+  margin-top: 40px;
+}
