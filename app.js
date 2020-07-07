@@ -31,7 +31,7 @@ window.addEventListener('load', () => {
                 const summary = capitalizeFirstLetter(data.weather[0].description);
                 const country = data.sys.country;
                 const iconCode = data.weather[0].icon;
-                const iconUrl = "http://openweathermap.org/img/wn/" + iconCode + "@4x" + ".png"
+                const iconUrl = "https://openweathermap.org/img/wn/" + iconCode + "@4x" + ".png"
                 // iconUrl = "icons/" + iconCode + ".png";
                 console.log(iconUrl);
                 console.log(summary);
