@@ -41,7 +41,7 @@ window.addEventListener('load', () => {
                 // Set DOM elements from the API
                 temperatureDegree.textContent = temperature;
                 temperatureDescription.textContent = summary;
-                locationTimezone.textContent = data.name + " / India";
+                locationTimezone.textContent = data.name;
                 iconPic.src = iconUrl;
 
                 //Change temperature to Celsius / Farenheit
